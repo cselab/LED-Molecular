@@ -224,7 +224,8 @@ def estimateLatentClusterMFPT(results, dt, dt_msm=10 * 1e-12, dt_save=1e-9):
     clustered_trajectories = np.array(clustered_trajectories)
 
     import time
-    import pyemma
+    # TODO: pyemma correctly not compiling
+    # import pyemma
     time_start = time.time()
 
     n_clusters = len(cluster_labels)

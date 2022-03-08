@@ -71,6 +71,8 @@ sequence_length=1
 ##############################################################################
 
 mode=train
+# mode=test
+# mode=all
 MDN_fixed_kernels=1
 MDN_train_kernels=1
 retrain=0

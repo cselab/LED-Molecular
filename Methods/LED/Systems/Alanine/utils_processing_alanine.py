@@ -7,7 +7,8 @@
 import numpy as np
 import os
 import time
-import pyemma
+# TODO: pyemma correctly not compiling
+# import pyemma
 
 # UTILITIES
 from ... import Utils as utils
